@@ -1,0 +1,191 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(255, 248, 220);
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(172, 131, 41);
+}
+
+header .logo{
+    padding: 30px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(172, 131, 41);
+    background-image: url(images/casquinha.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav a{
+    float:left;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+nav li a:hover{
+    background-color: rgba(233, 202, 135, 0.7);
+    border-radius: 2px;
+}
+
+.active {
+    background-color: rgba(233, 202, 135, 0.7);
+    border: 1px solid;
+    border-radius: 2px;
+  }
+
+.body-info{
+    padding: 20px 20px;
+}
+
+
+.body-info h4, h3{
+      padding: 20px 20px 10px;
+      font-weight: 900;
+      color: black;
+  }
+
+
+#html-learn{
+    width: 100%;
+    padding: 30px 20px;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+#html-learn h2{
+    padding: 30px 0;
+    border-top: 1px solid;
+    color: black;
+}
+
+
+.tagsiniciais{
+    display: grid;
+    float: left;
+    grid-auto-rows: 1fr;
+    grid-template-columns: auto auto auto;
+}
+
+.tagsiniciais > *{
+    padding: 1rem;
+}
+
+.tagsiniciais{
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.tagsiniciais h4,h5{
+    font-weight: 900;
+    text-align: center;
+}
+
+.tabletext p{
+    padding:0 12px;
+}
+
+.tabletag{
+    border-bottom: 1px solid;
+}
+
+table{
+    empty-cells: hide;
+    caption-side: bottom;
+}
+  
+th, td {
+    background-color: rgb(233, 202, 135);
+    color: black;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-radius: 2px;
+  }
+
+th, td:hover{
+    background-color: rgb(172, 131, 41);
+    color: black;
+}
+
+table caption {
+    font-weight: 900;
+}
+
+.media{
+    padding:0 12px;
+    display: grid;
+    float: left;
+    grid-auto-rows: 1fr ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.media h5{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    float: left;
+    margin: 0 30px;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+
+.media h4{
+    padding: 0;
+}
+
+.videomedia video{
+    margin: 0 80px 30px;
+}
