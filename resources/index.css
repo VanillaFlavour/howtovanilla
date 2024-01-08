@@ -1,0 +1,34 @@
+.mainrow::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.leftcolumn{
+    float: left;   
+    width: 75%;
+}
+
+.rightcolumn{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rightcolumn .card{
+    box-shadow: 5px 4px 4px 2px hsl(41, 62%, 40%);
+    margin-right: 20px;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+
+.leftcolumn .card{
+    margin-left: 20px;
+}
+

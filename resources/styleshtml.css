@@ -1,0 +1,130 @@
+.body-info{
+    padding: 20px 20px;
+}
+
+.body-info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body-info h4, h3{
+      padding: 20px 20px 10px;
+      font-weight: 900;
+      color: black;
+  }
+
+
+#html-learn{
+    width: 100%;
+    padding: 30px 20px;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+#html-learn h2{
+    padding: 30px 0;
+    border-top: 1px solid;
+    color: black;
+}
+
+
+.tagsiniciais{
+    display: grid;
+    float: left;
+    grid-auto-rows: 1fr;
+    grid-template-columns: auto auto auto;
+}
+
+.tagsiniciais > *{
+    padding: 1rem;
+}
+
+.tagsiniciais{
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.tagsiniciais h4,h5{
+    font-weight: 900;
+    text-align: center;
+}
+
+.tabletext p{
+    padding:0 12px;
+}
+
+.tabletag{
+    border-bottom: 1px solid;
+}
+
+table{
+    empty-cells: hide;
+    caption-side: bottom;
+}
+  
+th, td {
+    background-color: rgb(233, 202, 135);
+    color: black;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-radius: 2px;
+  }
+
+th, td:hover{
+    background-color: rgb(172, 131, 41);
+    color: black;
+}
+
+table caption {
+    font-weight: 900;
+}
+
+.media{
+    padding:0 12px;
+    display: grid;
+    float: left;
+    grid-auto-rows: 1fr ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.media p{
+    padding: 20px 0px 20px;
+}
+
+.media h5{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+div.gallery {
+    margin: 5px;
+    width: 180px;
+    float: left;
+    margin: 20px 90px;
+    box-shadow: 0px 0px 2px 2px;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.media h4{
+    padding: 0;
+}
+
+div.gallery video {
+    width: 100%;
+    height: 100%;
+}

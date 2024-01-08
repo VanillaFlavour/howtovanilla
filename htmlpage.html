@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources\styleshtml.css">
+    <link rel="stylesheet" href="resources/base.css">
+    <title>Vanilla Cheats Sheet</title>
+</head>
+<body>
+    <!--Banner Section-->
+        <header>
+            <h1 class="logo"> How To be Vanilla</h1>
+            <p>Neste site, eu(Vanilla Flavour), irei criar um manual de como usar o HTML e CSS.</p>
+        </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="htmlpage.html" class="active">Html</a></li>
+            <li><a href="csspage.html">Css</a></li>
+            <li><a href="about.asp">About me</a></li>
+        </ul> 
+        </nav>
+    <div class="body-info">
+        <section id="html-learn">
+            <h2>How to HTML</h2>
+                <p>HTML, que significa "HyperText Markup Language" (Linguagem de Marcação de Hipertexto),
+                é uma linguagem de marcação utilizada na construção e estruturação de páginas web. 
+                Desenvolvido para descrever o conteúdo de documentos, como textos, imagens e links, 
+                HTML utiliza tags (etiquetas) para definir elementos e atributos que determinam a apresentação
+                e o funcionamento desses elementos em um navegador web.</p>
+
+                <p>As páginas HTML são a base fundamental da web, sendo interpretadas pelos navegadores para exibir 
+                o conteúdo de forma visualmente compreensível para os usuários. Cada elemento em HTML possui uma função específica, 
+                como parágrafos, cabeçalhos, imagens, links, formulários, entre outros. A combinação e aninhamento desses elementos 
+                permitem a criação de páginas web complexas e interativas.</p>
+                    
+                <p>Além disso, HTML muitas vezes é utilizado em conjunto com outras tecnologias web, como CSS (Cascading Style Sheets) 
+                para estilização e layout, e JavaScript para adicionar interatividade e dinamismo às páginas. 
+                Juntos, esses três componentes formam a base da construção e design de grande parte dos sites na internet.</p>
+        </section>
+        <section class="basictags ">
+            <h3>Basic Tags</h3>
+                <h4>Tags iniciais</h4>
+                    <div class="tagsiniciais">
+                        
+                            <p><b>< !DOCTYPE html > </b><br>A declaração < !DOCTYPE html > é uma instrução no HTML que define a versão do HTML utilizada 
+                                no documento. No caso, "html" refere-se à versão mais recente do HTML5. 
+                                Essa declaração ajuda os navegadores a interpretar corretamente o código HTML da página, 
+                                garantindo a renderização apropriada. Em resumo, < !DOCTYPE html > é uma indicação inicial para 
+                                os navegadores sobre a versão do HTML sendo usada no documento.</p>
+                        
+                            <p><b>< head ></b><br>A tag < head > em HTML é usada para conter metadados e informações sobre o documento, 
+                                que não são exibidos diretamente na página. Ela inclui elementos como < title >, 
+                                que define o título da página exibido na barra de título do navegador, 
+                                e pode conter também links para folhas de estilo CSS, scripts, 
+                                metatags e outros elementos essenciais para a formatação e comportamento da página web. 
+                                Em resumo, a tag < head > é destinada a informações importantes sobre a página que não são visíveis para os usuários, 
+                                mas são cruciais para a correta exibição e funcionamento do conteúdo.</p>
+                        
+                            <p><b>< body ></b><br>A tag < body > em HTML é usada para conter o conteúdo principal de uma página web. 
+                                Todo o conteúdo visível para os usuários, como textos, imagens, links e outros elementos, 
+                                é colocado dentro dessa tag. Em resumo, < body > define o corpo do documento HTML, 
+                                onde o conteúdo é apresentado e exibido na página web.</p>
+                    </div>            
+        </section>
+        <section class="tabletext">                     
+                <h4>Tables</h4>
+                    <p>A tag < table > em HTML é usada para criar tabelas. Ela engloba o conteúdo tabular e é composta por outras tags, 
+                    como < tr > para linhas de tabela, < th > para cabeçalhos de tabela (opcional), 
+                    e < td > para células de dados. Em resumo, < table > é utilizada para estruturar e organizar dados em formato 
+                    tabular numa página web.</p>
+                    <table class="tabletag">
+                        <caption>Tabela e seus usos.(caption)</caption>
+                        <thead>
+                            <tr>
+                                <th>Tags</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>< table ></td>
+                                <td>Define uma tabela.</td>
+                            </tr>
+                            <tr>
+                                <td>< th ></td>
+                                <td>Define um cabeçalho.</td>
+                            </tr>
+                            <tr>
+                                <td> < tr ></td>
+                                <td>Define uma linha na tabela.</td>
+                            </tr>
+                            <tr>
+                                <td> < td ></td>
+                                <td>Define uma cell na tabela.</td>
+                            </tr>
+                            <tr>
+                                <td>< caption ></td>
+                                <td>Define uma caption para tabela.</td>
+                                <th>Details</th>
+                            </tr>
+                            <tr>
+                                <td>< colgroup ></td>
+                                <td>Specifies a group of one or more columns in a table for formatting.</td>
+                                <td rowspan="2">You need to use colgroup to use col.</td>
+                            </tr>
+                            <tr>
+                                <td>< col ></td>
+                                <td>Specifies column properties for each column within a < colgroup > element.</td>
+                                <th>Extra Details</th>
+                            </tr>
+                            <tr>
+                                <td>< thead ></td>
+                                <td rowspan="3">Agrupa cada uma de suas respectivas partes em uma tabela.</td>
+                                <td rowspan="3">É uma boa forma de deixar seu código organizado.</td>
+                                <td rowspan="3">Aqui eu usei os comandos rowspan e colspan para que a tabela ficasse desta maneira.</td>
+                            </tr>
+                            <tr>
+                                <td>< tbody ></td>
+                            </tr>
+                            <tr>
+                                <td>< tfoot ></td>
+                            </tr>
+                        </tbody>
+                    </table>
+        </section>
+        <h4>Medias</h4>
+        <section class="media">
+                        <div class="imagemedia">
+                            <h5>Images</h5>
+                            <p>A tag < img > em HTML é usada para incorporar imagens e gifs em uma página web. 
+                            Ela possui um atributo obrigatório chamado src, que especifica o caminho do arquivo da imagem. 
+                            Além disso, outros atributos opcionais, como alt para texto alternativo e width/height para especificar 
+                            as dimensões, podem ser incluídos. Em resumo, < img > permite a exibição de imagens na página web, 
+                            sendo uma parte essencial para o conteúdo visual.</p>
+                            <div class="gallery">
+                                <img src="./resources/images/icehobbitcream.jpg" alt="A vanilla icecream as a hobbit" width="400" height="400">
+                                <div class="desc">Last trip was amazing</div>
+                            </div>
+                            <div class="gallery">    
+                                <img src="./resources/images/climbericecream.jpg" alt="A vanilla icecream climbing a mountain" width="400" height="400">
+                                <div class="desc">Just another day climbing!!</div>
+                            </div>
+                            <div class="gallery">    
+                                <img src="./resources/images/icecreamcamp.jpg" alt="A vanilla icecream campfire" width="400" height="400">
+                                <div class="desc">My campfire</div>
+                            </div>
+                            <div class="gallery">    
+                                <img src="./resources/images/icecreambattle.jpg" alt="A vanilla icecream campfire" width="400" height="400">
+                                <div class="desc">Battling against the goblin camp!</div>
+                            </div>
+                        </div>
+                        <div class="videomedia">
+                            <h5>Videos</h5>
+                            <p>A tag < video > em HTML é usada para incorporar vídeos em uma página web. 
+                            Ela requer o atributo src para indicar o caminho do arquivo de vídeo. 
+                            Outros atributos opcionais, como controls para exibir controles de reprodução, 
+                            width/height para definir as dimensões, e autoplay para iniciar automaticamente a reprodução, 
+                            podem ser incluídos. Em resumo, < video > possibilita a inclusão de conteúdo de vídeo em uma página web, 
+                            oferecendo uma experiência multimídia aos usuários.</p>
+                            <div class="gallery">
+                                <video width="200" height="200" controls autoplay loop>
+                                    <source src="./resources/videos/icecreammelting.mp4" type="video/mp4">
+                                </video>
+                                <div class="desc">Melting</div>
+                            </div>
+                            <div class="gallery">
+                                <video width="200" height="200" controls autoplay loop>
+                                    <source src="./resources/videos/meltinglavacream.mp4" type="video/mp4">
+                                </video>
+                                <div class="desc">Melting more</div>
+                            </div>
+                        </div>
+        </section>                       
+    </div>
+    <footer>
+        <h1>Entre em contato: lalalal</h>
+        <p>qualquer ocisa</p>
+    </footer>
+</body>
+</html>
