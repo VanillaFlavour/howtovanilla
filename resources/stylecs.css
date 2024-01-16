@@ -1,0 +1,126 @@
+/* LAYOUT DA PAGINA */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.column.mid{
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+    background-color: rgb(172, 131, 41, 0.5);
+    box-shadow: 0px 0px 4px 2px hsl(41, 62%, 40%);
+    border-radius: 2px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FORMATAÇÃO DO CONTEÚDO */
+
+
+      /*First Topic */
+
+.intro{
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+.column.mid .bmp{
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+}
+
+#first_card_l{
+    margin-top: 110px;
+} 
+
+#first_card_r{
+    margin-top: 60px;
+}       
+
+     /*Second Topic*/
+.bco{
+    padding: 20px;
+}
+
+.bco .card{
+    margin-top: 70px;
+}
+
+.bco_r .card{
+    margin-top: 110px;
+}
+
+
+     /*Geral*/
+.column.mid h2{
+    text-align: center;
+}
+
+.column.mid ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.column.mid li{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.column.side p{
+    padding-bottom: 45%;
+    text-align: center;
+}
+.column.side h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card{
+    color: black;
+    font-weight: 700;
+    box-shadow: 5px 4px 4px 2px hsl(41, 62%, 40%);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+/* Exemplos */
+
+#backgroundcard:hover{
+    color: rgb(0, 0, 255);
+    background-color: rgb(0, 128, 0);
+}
+
+#backgroundcard1:hover{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/boaticecream.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#backgroundcard2:hover{
+    opacity: 0.5;
+}
+
+/*Comandos*/
+
+.column.side.left h2{
+    margin: 60px 0 px ;
+}

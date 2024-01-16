@@ -1,3 +1,8 @@
+@font-face {
+    font-family: PacificoReg;
+    src: url('./fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,20 +26,24 @@
    }
    
    h1, h2, h3, h4, p{
-       font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
    }
-   
+
    header{
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        padding: 20px;
-        color: rgb(172, 131, 41);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-image: url("./images/logo3.png");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(172, 131, 41);
    }
    
    header .logo{
        padding: 30px;
-
+       font-family: 'PacificoReg';
    }
    
    nav{
@@ -44,17 +53,17 @@
    }
    
    nav ul{
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-       overflow: hidden;
-       background-color:rgb(172, 131, 41);
-       background-image: url(images/casquinha.png);
-       background-position: right;
-       background-size: contain;
-       background-repeat: no-repeat;
-   }
-   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(172, 131, 41);
+    background-image: url(images/casquinha.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
    nav a{
        float:left;
        color: black;
@@ -75,9 +84,37 @@
        border-radius: 2px;
    }
 
+    .logo p{
+        font-family: DancingScript;
+    }
+
+   .card {
+       background-color: rgb(172, 131, 41, 0.5);
+       padding: 20px;
+       margin: 20px;
+       margin-top: 20px;
+   }
+
    footer{
     background-color: rgb(172, 131, 41);
-    padding: 20px;
-    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
     margin-top: 20px;
+}
+
+    .footer_left_column{
+        text-align: center;
+        float: left;
+        width: 50%;
+        padding-top: 20px;
+}
+
+    .footer_right_column{
+        text-align: center;
+        float: left;
+        width: 50%;
+}
+
+    .footer_right_column h4{
+        padding-bottom: 20px;
 }

@@ -3,32 +3,108 @@
     display: table;
     clear: both;
 }
+
+
 .leftcolumn{
     float: left;   
     width: 75%;
+}
+
+.leftcolumn.card{
+    margin-left: 20px;
 }
 
 .rightcolumn{
     float: left;
     width: 25%;
     padding-left: 20px;
-}
+}   
 
-.card {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    margin-top: 20px;
+.rightcolumn .card .cardtxt{
+    color: hsl(41, 62%, 40%);
+    opacity: 0;
 }
 
 .rightcolumn .card{
     box-shadow: 5px 4px 4px 2px hsl(41, 62%, 40%);
-    margin-right: 20px;
-    background-image: url(./images/background.jpg);
+    margin-right: 30px;
     background-position: center;
     background-size: cover ;
+    transition: 0.4s;
 }
 
-.leftcolumn .card{
-    margin-left: 20px;
+.rightcolumn .card:hover{
+    transform: scale(1.1);
+    margin-top: 30px;
+    margin-bottom: 30px ;
 }
+
+.rightcolumn .card .cardtxt:hover{
+    opacity: 1;
+    transition: 1.5s;
+    color: white;
+}
+
+
+
+.card1{
+    background-image: url(./images/card1.jpg);
+}
+.card1:hover{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/card1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card2{
+    background-image: url(./images/card2.jpg);
+}
+.card2:hover{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/card2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card3{
+    background-image: url(./images/card3.jpg);
+}
+.card3:hover{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/card3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card4{
+    background-image: url(./images/card4.jpg);
+}
+.card4:hover{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/card4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
 

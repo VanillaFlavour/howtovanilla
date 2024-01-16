@@ -2,17 +2,23 @@
     padding: 20px 20px;
 }
 
-.body-info::after{
+.body-info:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.body-info h4, h3{
-      padding: 20px 20px 10px;
-      font-weight: 900;
-      color: black;
-  }
+.basictags:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body-info  h2, h3{
+    padding: 20px 20px 10px;
+    font-weight: 900;
+    color: black;
+}
 
 
 #html-learn{
@@ -23,7 +29,7 @@
 }
 
 #html-learn h2{
-    padding: 30px 0;
+    padding: 20px 0;
     border-top: 1px solid;
     color: black;
 }
@@ -36,13 +42,19 @@
     grid-template-columns: auto auto auto;
 }
 
-.tagsiniciais > *{
-    padding: 1rem;
+.basictags{
+    box-shadow: 0px 0px 2px 2px hsl(41, 62%, 40%);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgba(172, 131, 41, 0.5);
 }
 
-.tagsiniciais{
-    border-bottom: 1px solid;
-    color: black;
+.basictags h4{
+    padding: 20px;
+}
+
+.card{
+    border-radius: 2px;
 }
 
 .tagsiniciais h4,h5{
@@ -50,17 +62,24 @@
     text-align: center;
 }
 
-.tabletext p{
-    padding:0 12px;
+.tabletext{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 2px hsl(41, 62%, 40%);
+    background-color: rgba(172, 131, 41, 0.5);
 }
 
-.tabletag{
-    border-bottom: 1px solid;
+.tabletext h4{
+    padding: 20px;
+}
+
+.tabletext p{
+    padding:0 12px;
 }
 
 table{
     empty-cells: hide;
     caption-side: bottom;
+    margin: 0px 20px;
 }
   
 th, td {
@@ -79,18 +98,31 @@ th, td:hover{
 
 table caption {
     font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.mediatext{
+    overflow: auto;
+    box-shadow: 0px 0px 2px 2px hsl(41, 62%, 40%);
+    position: relative;
+    background-color: rgba(172, 131, 41, 0.5);
+}
+
+.mediatext h4{
+    padding: 20px;
 }
 
 .media{
     padding:0 12px;
     display: grid;
     float: left;
-    grid-auto-rows: 1fr ;
+    grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+    position: relative;
 }
 
 .media p{
-    padding: 20px 0px 20px;
+    padding: 20px 10px 20px;
 }
 
 .media h5{
@@ -118,10 +150,6 @@ div.gallery img {
 div.desc{
     padding: 15px;
     text-align: center;
-}
-
-.media h4{
-    padding: 0;
 }
 
 div.gallery video {
