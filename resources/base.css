@@ -12,7 +12,18 @@
    html{
        background-color: rgb(255, 248, 220);
    }
-   
+  
+   body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+   }
+
+
+   html,body{
+    height: 100%;
+   }
+
    h2{
        font-size: 30px;
    }
@@ -30,11 +41,11 @@
    }
 
    header{
+    z-index: 5;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 20%;
     background-image: url("./images/logo3.png");
-    height: 100%;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -96,10 +107,11 @@
    }
 
    footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: rgb(172, 131, 41);
-    padding-bottom: 80px;
-    padding-top: 20px;
-    margin-top: 20px;
 }
 
     .footer_left_column{
