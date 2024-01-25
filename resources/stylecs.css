@@ -5,12 +5,14 @@
 }
 
 .column.side{
+    font-family: 'Signika';
     width: 25%;
     text-align: left;
     margin-top: 20px;
 }
 
 .column.mid{
+    font-family: 'Kalam';
     width: 50%;
     text-align: left;
     margin-top: 20px;
@@ -24,6 +26,9 @@
     clear: both;
 }
 
+footer{
+    margin-top: 20px;
+}
 /* FORMATAÇÃO DO CONTEÚDO */
 
 
@@ -65,6 +70,7 @@
 
      /*Geral*/
 .column.mid h2{
+    font-family: 'Satisfy';
     text-align: center;
 }
 
@@ -79,10 +85,12 @@
 }
 
 .column.side p{
+    font-family: 'Kalam';
     padding-bottom: 45%;
     text-align: center;
 }
 .column.side h2{
+    font-family: 'Satisfy';
     padding-bottom: 10px;
     text-align: center;
 }

@@ -1,0 +1,170 @@
+
+.middle_column::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle_column{
+  font-family: 'Kalam';
+}
+.middle_column h2,h4{
+  font-family: 'Satisfy';
+}
+
+/* Color Palette */
+@keyframes scaleIn {
+    0% {
+        transform: scale(1);
+      }
+      20% {
+        transform: scaleY(0.95) scaleX(1.05);
+      }
+      48% {
+        transform: scaleY(1.1) scaleX(0.9);
+      }
+      68% {
+        transform: scaleY(0.98) scaleX(1.02);
+      }
+      80% {
+        transform: scaleY(1.02) scaleX(0.98);
+      }
+      97%, 100% {
+        transform: scale(1);
+      }
+    }
+
+.card_color_palette{
+    font-family: 'Signika';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 0px 12px 2px rgb(165, 125, 39), 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dot{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 30px 30px;
+    box-shadow: 0px 2px 6px 0px;
+}
+.dot:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    filter: blur(5px);
+    z-index: 2;
+  }
+
+
+.column_left{
+    float: left;
+    width: 33.33%;
+}
+.column_mid{
+    float: left;
+    width: 33.33%;
+}
+.column_right{
+    float: left;
+    width: 33.33%;
+}
+
+
+
+#cone{
+    background: radial-gradient(circle at 50% 120%, rgb(231, 206, 152),  rgb(103, 78, 24) 10%, rgb(172, 131, 41), rgb(103, 78, 24) 100%);
+    animation: scaleIn 3s infinite;
+}
+#cream{
+    background: radial-gradient(circle at 50% 120%, rgb(233, 202, 135),  rgb(108, 80, 20) 10%, rgb(215, 160, 40) 80%,rgba(108, 80, 20, 0.6)100%);
+    animation: scaleIn 3s infinite;
+}
+#true_cream{
+    background: radial-gradient(circle at 50% 120%, rgb(255, 248, 220),  rgb(128, 102, 0) 10%,  rgb(255, 230, 128) 80%,   rgb(255, 230, 128)100%);  
+    animation: scaleIn 3s infinite;
+}
+
+/* Fonts Card */
+
+.small_card{
+ height: 500px;
+}
+.small_card h4, .small_card p{
+  margin-top: 10px;
+  line-height: 2;
+ }
+
+.small{
+  width: 35%;
+  height: 200px;
+  float: left;
+  position: relative;
+  margin: 30px 100px;
+  text-align: center;
+}
+
+.pac, .pac h4{
+  font-family: 'PacificoReg';
+}
+.pac{
+  background:
+  linear-gradient(
+    rgba(215, 160, 40, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  rgba(215, 160, 40, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 12px 16px 2px rgba(165, 125, 39,0.5), 5px 17px 50px 2px rgba(165, 125, 39,0.5);
+}
+
+.sig, .sig h4{
+  font-family: 'Signika';
+}
+.sig{
+  background:
+  linear-gradient(
+    rgba(95, 215, 40, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  rgba(95, 215, 40, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 12px 16px 2px rgba(48, 108, 20, 0.5), 5px 17px 50px 2px rgba(48, 108, 20, 0.5);
+}
+
+.kal, .kal h4{
+  font-family: 'Kalam';
+}
+.kal{
+  background:
+  linear-gradient(
+    rgba(42, 40, 215, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  rgba(42, 40, 215, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 12px 16px 2px rgba(21, 20, 108, 0.5), 5px 17px 50px 2px rgba(21, 20, 108,0.5);
+}
+
+.sat, .sat h4{
+  font-family: 'Satisfy';
+}
+.sat{
+  background:
+  linear-gradient(
+    rgba(215, 40, 125,0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  rgba(215, 40, 125,0.5);
+  border-radius: 5px;
+  box-shadow: 5px 12px 16px 2px rgba(108, 20, 62, 0.5), 5px 17px 50px 2px  rgba(108, 20, 62, 0.5);
+}
