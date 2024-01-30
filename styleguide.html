@@ -108,6 +108,140 @@
                 I got you covered on where to score some good and free fonts. 
                 Just hit up <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>, and you'll definitely find what you need.</p>
             </div>
+
+            <div class="card">
+                <h2>Stylishing</h2>
+                <p>Now that we've covered the absolute basics, let me throw in some styling ideas that I'm actually rocking on this very site. 
+                    Each of these simple tricks can be jazzed up in various ways for your own project.</p>
+                    <div class="card first">
+                        <h4>Cards</h4>
+                        <p>Guys, as you can see, I really enjoy making cards to organize things, and, of course, 
+                        it's a cool way to jazz up your site's vibe. So, I'm gonna show you how I do that.</p><br>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                    <h5>HTML</h5>
+                                    <p>&lt;div class="card"&gt;<br>
+                                        &nbsp;&nbsp;&lt;h5&gt;HTML&lt;/h5&gt;<br>
+                                        &nbsp;&nbsp;&lt;p&gt; Any text you want &lt;/p&gt;<br>
+                                        &lt;/div&gt;
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <h5>CSS</h5>
+                                    <p>.card {<br>
+                                    background-color: rgb(172, 131, 41, 0.5);<br>
+                                    padding: 20px;<br>
+                                    margin: 20px;<br>
+                                    margin-top: 20px;<br>
+                                    }</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card second">
+                        <h4>Nav Bar</h4>
+                        <p>The navigation bar is like the playground of website styling. It kinda sets the vibe for your site and always
+                            grabs attention. Whether it's a sleek and modern Navbar or something wild and vintage like the madness 
+                            I've got going on, it's all fair game.</p><br>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">  
+                                    <h5>HTML</h5>
+                                    <p>&lt;nav&gt;<br>
+                                        &nbsp;&nbsp;&lt;ul&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="index.html"&gt;Home &lt;/a&gt;&lt;/li&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="guides.html"&gt;Guides &lt;/a&gt;&lt;/li&gt;<br>
+                                        &nbsp;&nbsp;&lt;/ul&gt;<br>
+                                        &lt;/nav&gt;
+                                    </p>
+                                </div>
+                                <div class="circular"><img src="./resources/images/icecode.jpg"></div>
+                            </div>
+
+                            <div class="column">
+                                <div class="card">
+                                    <h5>CSS</h5>
+                                    <p>nav{<br>
+                                        font-family: 'Signika';<br>
+                                        font-size: 18px;<br>
+                                        position: sticky;<br>
+                                        top: 0;<br>
+                                        z-index: 5;<br>
+                                    }</p>
+                                </div>
+                                <div class="card">
+                                    <p>nav ul{<br>
+                                        list-style-type: none;<br>
+                                        overflow: hidden;<br>
+                                        background-color:rgb(172, 131, 41);<br>
+                                        background-image: url(images/casquinha.png);<br>
+                                        background-position: right;<br>
+                                        background-size: contain;<br>
+                                        background-repeat: no-repeat;<br>
+                                    }</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card third">
+                        <h4>Animation : Chatioc Version (BE CAREFUL)</h4>
+                        <p>Here, I'm gonna show you how to spice things up with animations. 
+                            This one's gonna be simple but delightfully chaotic. 
+                            Just keep your mouse on it for the magic to happen!</p>
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                    <h5>HTML</h5>
+                                        <p>&lt;div&gt;<br>
+                                            &nbsp;&nbsp;&lt;span class="circular" id="example"&gt;<br>
+                                            &nbsp;&nbsp;&lt;/span&gt;<br>
+                                            &lt;/div&gt;
+                                </div>
+                                <div class="circular"><img src="./resources/images/espiral.png" id="example"></div>
+                            </div>
+
+                            <div class="column">
+                                <div class="card">
+                                    <h5>CSS</h5>
+                                    <p>.circular img{<br>
+                                        text-align: center;<br>
+                                        margin-left: 150px;<br>
+                                        border-radius: 50%;<br>
+                                        height: 300px;<br>
+                                        box-shadow: 0px 2px 6px 0px white;<br>
+                                      }</p>
+                                </div>
+                                <div class="card">
+                                      <p>#example:hover{<br>
+                                        animation: rotation 2s infinite linear;<br>
+                                      }
+                                      </p>
+                                </div>
+                                <div class="card">
+                                    <p>@keyframes rotation {<br>
+                                        from {<br>
+                                            &nbsp;&nbsp;transform: rotate(0deg);<br>
+                                            &nbsp;&nbsp;} <br>
+                                        to { <br>
+                                            &nbsp;&nbsp;transform: rotate(359deg);<br>
+                                            &nbsp;&nbsp;} <br>
+                                      }
+                                    </p>
+                                </div>
+                            </div>
+
+                    </div>
+
+                <p><br>If you're curious about how I made those color palette bubbles dance smoothly, 
+                    feel free to check out my project on <a href="https://github.com/VanillaFlavour/howtovanilla" target="_blank">GitHub</a>. 
+                    You'll find all the code there, and I'm always jazzing it up with updates.
+            </div>
         </main>
 
         <!--Footer -->
@@ -128,3 +262,4 @@
         </footer>
     </body>
 </html>
+

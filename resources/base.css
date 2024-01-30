@@ -41,25 +41,28 @@ body{
     flex-direction: column;
 }
 
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: rgba(215, 40, 125,1);
+}
 
+h2{
+    font-size: 30px;
+}
+   
+h3{
+    font-size: 25px;
+}
+   
+h4{
+    font-size: 20px;
+}
+   
+/* Header*/
 
-   h2{
-       font-size: 30px;
-   }
-   
-   h3{
-       font-size: 25px;
-   }
-   
-   h4{
-       font-size: 20px;
-   }
-   
-   h1, h2, h3, h4, p{
-    font-family: 'Georgia, 'Times New Roman', Times, serif;'
-   }
-
-   header{
+header{
     z-index: 5;
     background-size: contain;
     background-repeat: no-repeat;
@@ -69,29 +72,29 @@ body{
     text-align: center;
     padding: 20px;
     color: rgb(172, 131, 41);
-   }
+}
    
-   header .logo{
-       padding: 30px;
-       font-family: 'PacificoReg';
-   }
-   header p{
+header .logo{
+    padding: 30px;
     font-family: 'PacificoReg';
-   }
+}
 
+header p{
+    font-family: 'PacificoReg';
+}
 
-   nav{
+/* Nav Bar*/
+
+nav{
     font-family: 'Signika';
     font-size: 18px;
     position: sticky;
     top: 0;
-    z-index: 500;
-   }
+    z-index: 5;
+}
    
-   nav ul{
+nav ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color:rgb(172, 131, 41);
     background-image: url(images/casquinha.png);
@@ -100,38 +103,41 @@ body{
     background-repeat: no-repeat;
 }
 
-   nav a{
-       float:left;
-       color: black;
-       display: block;
-       text-align: center;
-       padding: 14px 16px;
-       text-decoration: none;
-     }
+nav a{
+    float:left;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
    
-   nav li a:hover{
-       background-color: rgba(233, 202, 135, 0.7);
-       border-radius: 2px;
-   }
+nav li a:hover{
+    background-color: rgba(233, 202, 135, 0.7);
+    border-radius: 2px;
+}
    
-   .active {
-       background-color: rgba(233, 202, 135, 0.7);
-       border: 1px solid;
-       border-radius: 2px;
-   }
+.active {
+    background-color: rgba(233, 202, 135, 0.7);
+    border: 1px solid;
+    border-radius: 2px;
+}
 
-    .logo p{
-        font-family: 'PacificoReg';
-    }
 
-   .card {
-       background-color: rgb(172, 131, 41, 0.5);
-       padding: 20px;
-       margin: 20px;
-       margin-top: 20px;
-   }
 
-   footer{
+/*Card*/
+
+.card {
+    background-color: rgb(172, 131, 41, 0.5);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*Footer*/
+
+footer{
     font-family: 'Signika';
     font-size: 18px;
     position: relative;
@@ -142,20 +148,20 @@ body{
     background-color: rgb(172, 131, 41);
 }
 
-    .footer_left_column{
-        text-align: center;
-        float: left;
-        width: 50%;
-        padding-top: 20px;
+.footer_left_column{
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding-top: 20px;
 }
 
-    .footer_right_column{
-        text-align: center;
-        float: left;
-        width: 50%;
+.footer_right_column{
+    text-align: center;
+    float: left;
+    width: 50%;
 }
 
-    .footer_right_column h4{
-        font-family: 'Satisfy';
-        padding-bottom: 10px;
+.footer_right_column h4{
+    font-family: 'Satisfy';
+    padding-bottom: 10px;
 }
