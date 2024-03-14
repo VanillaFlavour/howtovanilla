@@ -132,3 +132,24 @@ footer{
 .column.side.left h2{
     margin: 60px 0 px ;
 }
+
+@media only screen and (max-width: 1050px) {
+
+
+
+    .side{
+        display: none;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .column.mid{
+        width: auto;
+        margin: 1em;
+    }
+
+}

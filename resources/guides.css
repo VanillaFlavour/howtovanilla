@@ -67,3 +67,27 @@ button:hover span:after {
   opacity: 1;
   right: 0;
 }
+
+@media only screen and (max-width: 800px) {
+
+.leftcolumn{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+  .basic ul li, .advanced ul li{
+    margin: 0 1em;
+    width: auto;
+  }
+
+  .rightcolumn{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+}

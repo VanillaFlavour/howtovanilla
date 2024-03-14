@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,19 @@
     <link rel="stylesheet" href="resources/stylecs.css">
     <title>Vanilla Cheats Sheet</title>
 </head>
+
 <body>
     <!--Banner Section-->
-        <header>
-            <h1 class="logo"> How To be Vanilla</h1>
-            <p>On this website, I (Vanilla Flavour) will create a basic guide on how to create a website.</p>
-        </header>
+    <header>
+        <h1 class="logo"> How To be Vanilla</h1>
+        <p>On this website, I (Vanilla Flavour) will create a basic guide on how to create a website.</p>
+    </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="guides.html">Guides</a></li>
             <li><a href="csspage.html" class="active">Css</a></li>
-        </ul> 
+        </ul>
     </nav>
 
     <div class="row">
@@ -27,30 +29,30 @@
             <p>Here, I will display the commands used for each of the example cards.</p>
             <div id="first_card_l" class="card bmp">
                 *{ <br>
-                    margin: 0; <br>
-                    padding: 0; <br>
-                    box-sizing: border-box;<br>
-                   }
+                margin: 0; <br>
+                padding: 0; <br>
+                box-sizing: border-box;<br>
+                }
             </div>
 
             <div class="bco">
                 <div class="card">
                     #backgroundcard{ <br>
-                        color: rgb(0, 0, 255);<br>
-                        background-color: rgb(0, 128, 0);<br>
+                    color: rgb(0, 0, 255);<br>
+                    background-color: rgb(0, 128, 0);<br>
                     }
                 </div>
                 <div class="card">
                     #backgroundcard1{<br>
-                        background-image: url(./images/boaticecream.jpg);<br>
-                        background-position: center;<br>
-                        background-repeat: no-repeat;<br>
-                        background-size: cover;<br>
+                    background-image: url(./images/boaticecream.jpg);<br>
+                    background-position: center;<br>
+                    background-repeat: no-repeat;<br>
+                    background-size: cover;<br>
                     }
                 </div>
                 <div class="card">
                     #backgroundcard2{<br>
-                        opacity: 0.5;<br>
+                    opacity: 0.5;<br>
                     }
                 </div>
                 <div></div>
@@ -60,35 +62,48 @@
         <div class="column mid">
             <article class="intro">
                 <h2>CSS: What is it? How to use?</h2>
-                <br><p>CSS, or Cascading Style Sheets, is a style language used on the web to describe the presentation
-                and formatting of an HTML document. With CSS, you can define the layout, colors, fonts, and other visual 
-                aspects of a web page, separating the structure of HTML content from its visual appearance.
-                <br><br>The main idea behind CSS is to enable developers to apply consistent styles across various web pages, 
-                making maintenance and updates easier. Additionally, the concept of "cascading" in CSS refers to how rules are applied, 
-                with priorities determined by specificity, order, and the origin of the rules.
-                <br><br>In summary, CSS is a fundamental tool for creating attractive and responsive designs on web pages, 
-                providing greater control over the layout and visual appearance of content.</p>
+                <br>
+                <p>CSS, or Cascading Style Sheets, is a style language used on the web to describe the presentation
+                    and formatting of an HTML document. With CSS, you can define the layout, colors, fonts, and other
+                    visual
+                    aspects of a web page, separating the structure of HTML content from its visual appearance.
+                    <br><br>The main idea behind CSS is to enable developers to apply consistent styles across various
+                    web pages,
+                    making maintenance and updates easier. Additionally, the concept of "cascading" in CSS refers to how
+                    rules are applied,
+                    with priorities determined by specificity, order, and the origin of the rules.
+                    <br><br>In summary, CSS is a fundamental tool for creating attractive and responsive designs on web
+                    pages,
+                    providing greater control over the layout and visual appearance of content.
+                </p>
             </article>
             <article class="bmp">
                 <h2>Border-box, Margin and Padding</h2>
-                <br><p>It is crucial to have organization within your HTML and CSS files, as it facilitates code maintenance. 
-                By default, during the construction of this website, I aimed to clear all margin and padding presets, 
-                in addition to declaring box-sizing as border-box. But what is box-sizing and border-box?<br>
-                <br>As the name suggests, box-sizing is a property used to alter the default behavior of the box model, 
-                which is employed to calculate the widths and heights of elements.</p>
+                <br>
+                <p>It is crucial to have organization within your HTML and CSS files, as it facilitates code
+                    maintenance.
+                    By default, during the construction of this website, I aimed to clear all margin and padding
+                    presets,
+                    in addition to declaring box-sizing as border-box. But what is box-sizing and border-box?<br>
+                    <br>As the name suggests, box-sizing is a property used to alter the default behavior of the box
+                    model,
+                    which is employed to calculate the widths and heights of elements.
+                </p>
             </article>
             <article class="bco">
                 <h2>Background, Color and Opacity</h2>
                 <br><b>Color (color property):</b>
                 <ul>
                     <li>The <b>'color'</b> property in CSS is used to set the text color of HTML elements.</li>
-                    <li>It accepts various color representations, including names, hexadecimal codes, RGB values, and HSL values.</li>
-                    <li>Customizing the color property allows developers to control the foreground color, 
-                    enhancing the visual presentation of text content.</li>
+                    <li>It accepts various color representations, including names, hexadecimal codes, RGB values, and
+                        HSL values.</li>
+                    <li>Customizing the color property allows developers to control the foreground color,
+                        enhancing the visual presentation of text content.</li>
                 </ul>
                 <br><b>Background (background properties):</b>
                 <ul>
-                    <li>CSS provides several background properties to control the background appearance of HTML elements.</li>
+                    <li>CSS provides several background properties to control the background appearance of HTML
+                        elements.</li>
                     <li><b>'background-color'</b> sets the background color.</li>
                     <li><b>'background-image'</b> specifies an image as the background.</li>
                     <li><b>'background-repeat'</b> controls how the background image is repeated.</li>
@@ -97,18 +112,23 @@
                 </ul>
                 <br><b>Opacity (opacity property):</b>
                 <ul>
-                    <li>The <b>'opacity'</b> property in CSS adjusts the transparency of an element, ranging from 0 (completely transparent) to 1 (fully opaque).</li>
-                    <li>It is useful for creating visual effects such as fade-ins, fade-outs, and layering elements.</li>
-                    <li><b>'opacity'</b> can be applied to both text and background, allowing for dynamic and subtle design modifications.</li>
+                    <li>The <b>'opacity'</b> property in CSS adjusts the transparency of an element, ranging from 0
+                        (completely transparent) to 1 (fully opaque).</li>
+                    <li>It is useful for creating visual effects such as fade-ins, fade-outs, and layering elements.
+                    </li>
+                    <li><b>'opacity'</b> can be applied to both text and background, allowing for dynamic and subtle
+                        design modifications.</li>
                 </ul>
-        These CSS properties provide developers with powerful tools to control the appearance, color, and transparency of elements on a webpage, contributing to the overall design and user experience.
+                These CSS properties provide developers with powerful tools to control the appearance, color, and
+                transparency of elements on a webpage, contributing to the overall design and user experience.
             </article>
         </div>
 
         <div class="column side right">
             <h2>Exemples</h2>
-            <p>In each card, I will provide examples of the CSS commands I am explaining. 
-            I ask that for each example, place the mouse cursor over it, and the card will display the proposed effect.</p>
+            <p>In each card, I will provide examples of the CSS commands I am explaining.
+                I ask that for each example, place the mouse cursor over it, and the card will display the proposed
+                effect.</p>
             <div id="first_card_r" class="card bmp">
                 Open your browser's inspection mode and disable the box-sizing option, see what happens.
             </div>
@@ -119,8 +139,8 @@
                     This card is in green color.
                 </div>
                 <div id="backgroundcard1" class="card">
-                    This card has a background as an image. 
-                    The image has been centered, there is no repetition, 
+                    This card has a background as an image.
+                    The image has been centered, there is no repetition,
                     and it is being used to fully cover the background of the element.
                 </div>
                 <div id="backgroundcard2" class="card">
@@ -134,16 +154,20 @@
         <div class="footer_left_column">
             <h5>Made by Leonardo Azevedo</h5>
             <h5>Project created for the Full-Stack course on the Codecademy platform.</h5>
-            <h5>All images used here were generated by Microsoft Bing's AI.</h5>            
+            <h5>All images used here were generated by Microsoft Bing's AI.</h5>
         </div>
         <div class="footer_right_column">
             <h4>Contacts</h4>
             <div class="contact">
-                <a href="https://www.linkedin.com/in/leonardo-bazevedo/" target="_blank"><img src="./resources/images/linkedin.png" width="35" height="35"></a>
-                <a href="https://www.github.com/VanillaFlavour" target="_blank"><img src="./resources/images/github.png" width="35" height="35"></a>
-                <a href="https://www.codecademy.com/profiles/VanillaFlavour" target="_blank"><img src="./resources/images/codecademy.png" width="35" height="35"></a>
+                <a href="https://www.linkedin.com/in/leonardo-bazevedo/" target="_blank"><img
+                        src="./resources/images/linkedin.png" width="35" height="35"></a>
+                <a href="https://www.github.com/VanillaFlavour" target="_blank"><img src="./resources/images/github.png"
+                        width="35" height="35"></a>
+                <a href="https://www.codecademy.com/profiles/VanillaFlavour" target="_blank"><img
+                        src="./resources/images/codecademy.png" width="35" height="35"></a>
             </div>
         </div>
-     </footer>   
+    </footer>
 </body>
+
 </html>
